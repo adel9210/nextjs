@@ -1,0 +1,22 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+
+.blog {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #ccc;
+    max-width: 800px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.blog:hover {
+    background-color: #c6dfff;
+}
